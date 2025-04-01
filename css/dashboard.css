@@ -1,0 +1,475 @@
+/* Dashboard Styles */
+:root {
+    --sidebar-width: 260px;
+    --header-height: 70px;
+    --primary-color: #f7931a;
+    --secondary-color: #4a4a4a;
+    --dark-bg: #0f1c2d;
+    --darker-bg: #0a1622;
+    --sidebar-bg: #0f1c2d;
+    --content-bg: #f5f6fa;
+    --card-bg: #fff;
+    --text-color: #333;
+    --text-muted: #6c757d;
+    --border-color: #e0e0e0;
+}
+
+/* General Dashboard Styles */
+.dashboard-body {
+    background-color: var(--content-bg);
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.dashboard-container {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+}
+
+/* Sidebar Styles */
+.sidebar {
+    width: var(--sidebar-width);
+    background: var(--sidebar-bg);
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    overflow-y: auto;
+    transition: all 0.3s ease;
+    z-index: 1000;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-header {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.sidebar-header h3 {
+    color: var(--primary-color);
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.close-sidebar {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.user-info {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.user-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 15px;
+    border: 2px solid var(--primary-color);
+}
+
+.user-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.user-details h4 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.user-details p {
+    margin: 0;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.sidebar-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar-menu li {
+    margin: 5px 0;
+}
+
+.sidebar-menu li a {
+    display: flex;
+    align-items: center;
+    padding: 12px 20px;
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.sidebar-menu li a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+}
+
+.sidebar-menu li.active a {
+    background-color: var(--primary-color);
+    color: #fff;
+    border-left: 5px solid #fff;
+}
+
+.sidebar-menu li a i {
+    width: 25px;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+/* Dashboard Content Styles */
+.dashboard-content {
+    flex: 1;
+    margin-left: var(--sidebar-width);
+    transition: all 0.3s ease;
+}
+
+.dashboard-header {
+    height: var(--header-height);
+    background-color: var(--card-bg);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 25px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.toggle-sidebar {
+    font-size: 24px;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    background-color: #f5f6fa;
+    border-radius: 30px;
+    padding: 8px 15px;
+    width: 300px;
+}
+
+.search-box input {
+    border: none;
+    background: transparent;
+    outline: none;
+    width: 100%;
+}
+
+.search-box i {
+    color: var(--text-muted);
+}
+
+.header-actions {
+    display: flex;
+    align-items: center;
+}
+
+.notification {
+    margin-right: 20px;
+    position: relative;
+}
+
+.notification a {
+    color: var(--text-color);
+    font-size: 20px;
+}
+
+.notification .badge {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background-color: var(--primary-color);
+    color: #fff;
+    font-size: 10px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+}
+
+.user a {
+    display: flex;
+    align-items: center;
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.user img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.user span {
+    font-weight: 600;
+}
+
+.dashboard-main {
+    padding: 25px;
+}
+
+.page-title {
+    margin-bottom: 25px;
+}
+
+.page-title h1 {
+    font-size: 28px;
+    margin: 0;
+    font-weight: 700;
+    color: var(--secondary-color);
+}
+
+.page-title p {
+    margin: 5px 0 0;
+    color: var(--text-muted);
+}
+
+/* Summary Cards */
+.summary-card {
+    background-color: var(--card-bg);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 25px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    display: flex;
+    align-items: center;
+}
+
+.card-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    color: #fff;
+    font-size: 24px;
+}
+
+.bg-primary {
+    background-color: var(--primary-color);
+}
+
+.bg-success {
+    background-color: #28a745;
+}
+
+.bg-info {
+    background-color: #17a2b8;
+}
+
+.bg-warning {
+    background-color: #ffc107;
+}
+
+.card-info h3 {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--secondary-color);
+}
+
+.card-info p {
+    margin: 5px 0 0;
+    color: var(--text-muted);
+    font-size: 14px;
+}
+
+/* Section Styles */
+.section {
+    background-color: var(--card-bg);
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 25px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.section-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.section-header h2 {
+    font-size: 20px;
+    margin: 0;
+    font-weight: 700;
+    color: var(--secondary-color);
+}
+
+/* Table Styles */
+.table {
+    margin-bottom: 0;
+}
+
+.table th {
+    font-weight: 600;
+    color: var(--secondary-color);
+    border-bottom-width: 1px;
+}
+
+.table td {
+    vertical-align: middle;
+}
+
+.badge {
+    padding: 5px 10px;
+    border-radius: 30px;
+    font-weight: 500;
+}
+
+.transaction-type {
+    padding: 5px 10px;
+    border-radius: 30px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.transaction-type.deposit {
+    background-color: rgba(40, 167, 69, 0.1);
+    color: #28a745;
+}
+
+.transaction-type.withdrawal {
+    background-color: rgba(220, 53, 69, 0.1);
+    color: #dc3545;
+}
+
+.transaction-type.investment {
+    background-color: rgba(23, 162, 184, 0.1);
+    color: #17a2b8;
+}
+
+.transaction-type.referral {
+    background-color: rgba(255, 193, 7, 0.1);
+    color: #ffc107;
+}
+
+.progress {
+    height: 8px;
+    border-radius: 10px;
+}
+
+.progress-bar {
+    background-color: var(--primary-color);
+}
+
+/* Plan Box Styles */
+.plan-box {
+    height: auto;
+    margin-bottom: 25px;
+}
+
+.plan-box .plan-features ul {
+    margin-bottom: 15px;
+}
+
+/* Referral Box Styles */
+.referral-box {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 25px;
+    border: 1px dashed var(--primary-color);
+}
+
+.referral-box h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    color: var(--secondary-color);
+}
+
+.referral-link {
+    margin-top: 20px;
+}
+
+.referral-stats {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+
+.stat-item h4 {
+    font-size: 24px;
+    margin: 0;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.stat-item p {
+    margin: 5px 0 0;
+    color: var(--text-muted);
+    font-size: 14px;
+}
+
+/* Dashboard Footer */
+.dashboard-footer {
+    background-color: var(--card-bg);
+    padding: 15px 25px;
+    text-align: center;
+    color: var(--text-muted);
+    font-size: 14px;
+    border-top: 1px solid var(--border-color);
+}
+
+/* Responsive Styles */
+@media (max-width: 991px) {
+    .sidebar {
+        left: -100%;
+    }
+    
+    .sidebar.active {
+        left: 0;
+    }
+    
+    .dashboard-content {
+        margin-left: 0;
+    }
+    
+    .search-box {
+        width: 200px;
+    }
+}
+
+@media (max-width: 767px) {
+    .search-box {
+        display: none;
+    }
+    
+    .user span {
+        display: none;
+    }
+    
+    .referral-stats {
+        margin-top: 20px;
+    }
+}

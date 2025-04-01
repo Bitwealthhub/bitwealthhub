@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - BitWealth Hub</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/logo.png" alt="BitWealth Hub Logo" class="logo-img">
+                    <span class="brand-text">BitWealth Hub</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="plans.html">Investment Plans</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="faq.html">FAQ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn btn-outline-light login-btn" href="login.html">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn btn-primary signup-btn" href="register.html">Sign Up</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header" style="background-image: url('images/bg-main.jpg');">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1>About BitWealth Hub</h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center">
+                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">About Us</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="about-content">
+                        <h2>Our Story</h2>
+                        <p>Welcome to BitWealth Hub, a trusted Bitcoin investment community dedicated to helping individuals grow their wealth through smart and secure cryptocurrency investments.</p>
+                        <p>Founded in 2020 by a team of cryptocurrency enthusiasts and financial experts, BitWealth Hub was created with a simple mission: to make cryptocurrency investments accessible, profitable, and secure for everyone.</p>
+                        <p>At BitWealth Hub, we believe in the power of Bitcoin and blockchain technology to revolutionize financial freedom. Our platform provides investors with reliable opportunities to earn and grow their crypto assets through well-structured investment plans, expert insights, and a secure ecosystem.</p>
+                        <p>What started as a small community of like-minded investors has grown into a global platform serving thousands of users from over 50 countries. Our success is built on our commitment to transparency, security, and delivering consistent returns to our investors.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-image">
+                        <img src="images/hero-banner.jpg" alt="About BitWealth Hub" class="img-fluid rounded">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission & Vision Section -->
+    <section class="mission-vision">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="mission-box">
+                        <div class="icon">
+                            <i class="fas fa-bullseye"></i>
+                        </div>
+                        <h3>Our Mission</h3>
+                        <p>To provide a secure and profitable platform for cryptocurrency investments, empowering individuals to achieve financial freedom through the power of Bitcoin and blockchain technology.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="vision-box">
+                        <div class="icon">
+                            <i class="fas fa-eye"></i>
+                        </div>
+                        <h3>Our Vision</h3>
+                        <p>To become the world's leading cryptocurrency investment platform, known for security, transparency, and consistent returns, making financial freedom accessible to everyone through blockchain technology.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Values Section -->
+    <section class="values-section">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>Our Core Values</h2>
+                <p>The principles that guide everything we do</p>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="value-box">
+                        <div class="value-icon">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                        <h3>Security</h3>
+                        <p>We implement industry-leading security measures to protect our investors' assets and personal information. Your security is our top priority.</p>
+                        <img src="images/feature-security.jpg" alt="Security" class="img-fluid value-image mt-3">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="value-box">
+                        <div class="value-icon">
+                            <i class="fas fa-handshake"></i>
+                        </div>
+                        <h3>Transparency</h3>
+                        <p>We believe in complete transparency in all our operations. Our investors always know exactly how their investments are performing.</p>
+                        <img src="images/feature-analysis.jpg" alt="Transparency" class="img-fluid value-image mt-3">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="value-box">
+                        <div class="value-icon">
+                            <i class="fas fa-chart-pie"></i>
+                        </div>
+                        <h3>Reliability</h3>
+                        <p>We are committed to delivering consistent returns and maintaining the highest standards of service reliability for all our investors.</p>
+                        <img src="images/feature-transaction.jpg" alt="Reliability" class="img-fluid value-image mt-3">
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <div class="value-box">
+                        <div class="value-icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <h3>Innovation</h3>
+                        <p>We continuously explore new technologies and investment strategies to maximize returns and improve user experience.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="value-box">
+                        <div class="value-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3>Community</h3>
+                        <p>We foster a supportive community of investors, sharing knowledge and helping each other succeed in the cryptocurrency space.</p>
+                        <img src="images/feature-community.jpg" alt="Community" class="img-fluid value-image mt-3">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="value-box">
+                        <div class="value-icon">
+                            <i class="fas fa-headset"></i>
+                        </div>
+                        <h3>Support</h3>
+                        <p>Our dedicated support team is always available to assist our investors with any questions or concerns they may have.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team-section">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>Meet Our Team</h2>
+                <p>The experts behind BitWealth Hub's success</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-member">
+                        <div class="member-image">
+                            <img src="images/team-ceo.jpg" alt="James Wilson" class="img-fluid">
+                            <div class="social-links">
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                        <div class="member-info">
+                            <h4>James Wilson</h4>
+                            <p>Founder & CEO</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-member">
+                        <div class="member-image">
+                            <img src="images/team-analyst.jpg" alt="Sarah Johnson" class="img-fluid">
+                            <div class="social-links">
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                        <div class="member-info">
+                            <h4>Sarah Johnson</h4>
+                            <p>Chief Investment Officer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-member">
+                        <div class="member-image">
+                            <img src="images/team-security.jpg" alt="Michael Chen" class="img-fluid">
+                            <div class="social-links">
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                        <div class="member-info">
+                            <h4>Michael Chen</h4>
+                            <p>Head of Security</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-member">
+                        <div class="member-image">
+                            <img src="images/testimonial-2.jpg" alt="Emily Rodriguez" class="img-fluid">
+                            <div class="social-links">
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                        <div class="member-info">
+                            <h4>Emily Rodriguez</h4>
+                            <p>Customer Success Manager</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="stat-box">
+                        <div class="stat-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3 class="counter">15,000+</h3>
+                        <p>Active Investors</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="stat-box">
+                        <div class="stat-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <h3 class="counter">50+</h3>
+                        <p>Countries Served</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="stat-box">
+                        <div class="stat-icon">
+                            <i class="fas fa-bitcoin"></i>
+                        </div>
+                        <h3 class="counter">$250M+</h3>
+                        <p>Investments Managed</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="stat-box">
+                        <div class="stat-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3 class="counter">98%</h3>
+                        <p>Client Satisfaction</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta" style="background-image: url('images/bg-main.jpg');">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8">
+                    <h2>Ready to Start Your Bitcoin Investment Journey?</h2>
+                    <p>Join thousands of satisfied investors and start growing your wealth today!</p>
+                </div>
+                <div class="col-lg-4 text-lg-end">
+                    <a href="register.html" class="btn btn-primary btn-lg">Create Account</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="footer-about">
+                        <img src="images/logo-white.png" alt="BitWealth Hub Logo" class="footer-logo">
+                        <h3>BitWealth Hub</h3>
+                        <p>A trusted Bitcoin investment community dedicated to helping individuals grow their wealth through smart and secure cryptocurrency investments.</p>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-telegram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="footer-links">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="plans.html">Investment Plans</a></li>
+                            <li><a href="faq.html">FAQ</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="footer-links">
+                        <h4>Legal</h4>
+                        <ul>
+                            <li><a href="terms.html">Terms of Service</a></li>
+                            <li><a href="privacy.html">Privacy Policy</a></li>
+                            <li><a href="risk.html">Risk Disclosure</a></li>
+                            <li><a href="refund.html">Refund Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="footer-contact">
+                        <h4>Contact Us</h4>
+                        <p><i class="fas fa-map-marker-alt"></i> 123 Main Street, Suite 456, New York, NY 10001</p>
+                        <p><i class="fas fa-envelope"></i> bitwealthhubb@gmail.com</p>
+                        <p><i class="fas fa-phone"></i> +1(201) 477-8071</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p>&copy; 2025 BitWealth Hub. All Rights Reserved.</p>
+                    </div>
+                    <div class="col-md-6 text-md-end">
+                        <p>Designed with <i class="fas fa-heart"></i> for secure investments</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

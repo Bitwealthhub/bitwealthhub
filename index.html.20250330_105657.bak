@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- All image assets converted from various formats to JPEG for consistency and optimization -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BitWealth Hub - Bitcoin Investment Platform</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/favicon.jpeg" type="image/jpeg">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/logo.jpeg" alt="BitWealth Hub Logo" class="logo-img">
+                    <span class="brand-text">BitWealth Hub</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="plans.html">Investment Plans</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="faq.html">FAQ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn btn-outline-light login-btn" href="login.html">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn btn-primary signup-btn" href="register.html">Sign Up</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" style="background-image: url('images/bg-main.jpg');">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1>Grow Your Wealth With Bitcoin Investments</h1>
+                    <p>Join BitWealth Hub, a trusted Bitcoin investment community dedicated to helping individuals grow their wealth through smart and secure cryptocurrency investments.</p>
+                    <div class="hero-buttons">
+                        <a href="register.html" class="btn btn-primary btn-lg">Get Started</a>
+                        <a href="plans.html" class="btn btn-outline-light btn-lg">View Plans</a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <img src="images/hero-banner.jpg" alt="Bitcoin Investment" class="img-fluid hero-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>Why Choose Us</h2>
+                <p>We offer the best investment experience in the cryptocurrency market</p>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="feature-box">
+                        <div class="feature-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3>Transparent & Secure</h3>
+                        <p>We prioritize safety with advanced security protocols and real-time monitoring.</p>
+                        <img src="images/feature-security.jpg" alt="Security Feature" class="img-fluid feature-image">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="feature-box">
+                        <div class="feature-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3>Expert-Led Investments</h3>
+                        <p>Our team of professionals analyzes market trends to provide strategic investment opportunities.</p>
+                        <img src="images/feature-analysis.jpg" alt="Expert Analysis" class="img-fluid feature-image">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="feature-box">
+                        <div class="feature-icon">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <h3>Fast Transactions</h3>
+                        <p>Enjoy seamless Bitcoin deposits, withdrawals, and profit payouts.</p>
+                        <img src="images/feature-transaction.jpg" alt="Fast Transactions" class="img-fluid feature-image">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="feature-box">
+                        <div class="feature-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3>Community-Driven</h3>
+                        <p>We foster a strong network of crypto enthusiasts and investors, offering educational resources.</p>
+                        <img src="images/feature-community.jpg" alt="Community" class="img-fluid feature-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Investment Plans Section -->
+    <section class="investment-plans">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>Our Investment Plans</h2>
+                <p>Choose the plan that suits your investment goals</p>
+            </div>
+            <div class="row">
+                <!-- Basic Plan -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="plan-box">
+                        <div class="plan-header">
+                            <img src="images/basic-plan.jpeg" alt="Basic Plan" class="img-fluid plan-image">
+                            <h3>Basic Plan</h3>
+                            <div class="plan-price">
+                                <span class="percentage">10%</span>
+                                <span class="duration">after 12 hours</span>
+                            </div>
+                        </div>
+                        <div class="plan-features">
+                            <ul>
+                                <li>Minimum: $100</li>
+                                <li>Maximum: $1,999</li>
+                                <li>10% Referral Bonus</li>
+                                <li>24/7 Support</li>
+                            </ul>
+                        </div>
+                        <div class="plan-example">
+                            <p>Example: $100 = $110 after 12 hours</p>
+                        </div>
+                        <div class="plan-footer">
+                            <a href="register.html" class="btn btn-primary">Invest Now</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Premium Plan -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="plan-box">
+                        <div class="plan-header">
+                            <img src="images/premium-plan.jpg" alt="Premium Plan" class="img-fluid plan-image">
+                            <h3>Premium Plan</h3>
+                            <div class="plan-price">
+                                <span class="percentage">15%</span>
+                                <span class="duration">after 24 hours</span>
+                            </div>
+                        </div>
+                        <div class="plan-features">
+                            <ul>
+                                <li>Minimum: $2,000</li>
+                                <li>Maximum: $5,999</li>
+                                <li>10% Referral Bonus</li>
+                                <li>24/7 Support</li>
+                            </ul>
+                        </div>
+                        <div class="plan-example">
+                            <p>Example: $2,000 = $2,300 after 24 hours</p>
+                        </div>
+                        <div class="plan-footer">
+                            <a href="register.html" class="btn btn-primary">Invest Now</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Gold Plan -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="plan-box popular">
+                        <div class="popular-tag">Popular</div>
+                        <div class="plan-header">
+                            <img src="images/gold-plan.jpg" alt="Gold Plan" class="img-fluid plan-image">
+                            <h3>Gold Plan</h3>
+                            <div class="plan-price">
+                                <span class="percentage">25%</span>
+                                <span class="duration">after 48 hours</span>
+                            </div>
+                        </div>
+                        <div class="plan-features">
+                            <ul>
+                                <li>Minimum: $6,000</li>
+                                <li>Maximum: $9,999</li>
+                                <li>10% Referral Bonus</li>
+                                <li>24/7 Support</li>
+                            </ul>
+                        </div>
+                        <div class="plan-example">
+                            <p>Example: $6,000 = $7,500 after 48 hours</p>
+                        </div>
+                        <div class="plan-footer">
+                            <a href="register.html" class="btn btn-primary">Invest Now</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Advanced Plan -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="plan-box">
+                        <div class="plan-header">
+                            <img src="images/advanced-plan.jpg" alt="Advanced Plan" class="img-fluid plan-image">
+                            <h3>Advanced Plan</h3>
+                            <div class="plan-price">
+                                <span class="percentage">40%</span>
+                                <span class="duration">after 72 hours</span>
+                            </div>
+                        </div>
+                        <div class="plan-features">
+                            <ul>
+                                <li>Minimum: $10,000</li>
+                                <li>Maximum: Unlimited</li>
+                                <li>10% Referral Bonus</li>
+                                <li>24/7 Support</li>
+                            </ul>
+                        </div>
+                        <div class="plan-example">
+                            <p>Example: $10,000 = $14,000 after 72 hours</p>
+                        </div>
+                        <div class="plan-footer">
+                            <a href="register.html" class="btn btn-primary">Invest Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>How It Works</h2>
+                <p>Simple steps to start growing your Bitcoin investments</p>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="step-box">
+                        <div class="step-number">1</div>
+                        <h3>Create an Account</h3>
+                        <p>Register and complete your profile to get started with BitWealth Hub.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="step-box">
+                        <div class="step-number">2</div>
+                        <h3>Make a Deposit</h3>
+                        <p>Fund your account with Bitcoin to start your investment journey.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="step-box">
+                        <div class="step-number">3</div>
+                        <h3>Watch Your Profits Grow</h3>
+                        <p>Select an investment plan and start earning profits automatically.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>What Our Investors Say</h2>
+                <p>Hear from our satisfied community members</p>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="testimonial-box">
+                        <div class="testimonial-content">
+                            <p>"BitWealth Hub has transformed my approach to crypto investments. The returns are consistent, and the platform is extremely user-friendly."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="images/testimonial-1.jpg" alt="John Doe" class="testimonial-avatar">
+                            <div class="author-info">
+                                <h4>John Doe</h4>
+                                <p>Premium Investor</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="testimonial-box">
+                        <div class="testimonial-content">
+                            <p>"I started with the Basic Plan and saw such impressive returns that I quickly upgraded to Gold. The support team is always available to answer questions."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="images/testimonial-2.jpg" alt="Sarah Johnson" class="testimonial-avatar">
+                            <div class="author-info">
+                                <h4>Sarah Johnson</h4>
+                                <p>Gold Investor</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="testimonial-box">
+                        <div class="testimonial-content">
+                            <p>"As someone new to cryptocurrency investments, I appreciate how BitWealth Hub makes everything transparent and easy to understand. My profits have been consistently growing."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="images/testimonial-3.jpg" alt="Michael Chen" class="testimonial-avatar">
+                            <div class="author-info">
+                                <h4>Michael Chen</h4>
+                                <p>Basic Investor</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>Frequently Asked Questions</h2>
+                <p>Find answers to common questions about BitWealth Hub</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="accordion" id="faqAccordion">
+                        <!-- FAQ Item 1 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    How do I start investing with BitWealth Hub?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    To start investing, create an account, verify your email, deposit Bitcoin to your wallet address, and choose an investment plan that suits your goals. Once your deposit is confirmed, your investment will start generating returns according to the selected plan.
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- FAQ Item 2 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    How soon can I withdraw my profits?
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    You can withdraw your profits as soon as they are credited to your account after the investment period (12 hours for Basic, 24 hours for Premium, 48 hours for Gold, and 72 hours for Advanced plans). The minimum withdrawal amount is $10.
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- FAQ Item 3 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Is my investment secure with BitWealth Hub?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Yes, security is our top priority. We employ industry-leading encryption, secure wallets, and real-time monitoring systems to ensure your investments are protected. Our platform is regularly audited for security vulnerabilities.
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- FAQ Item 4 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    How does the referral program work?
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Our referral program offers you a 10% commission on every deposit made by users who register using your referral link. Referral bonuses are automatically credited to your account and can be withdrawn at any time.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-5">
+                <a href="faq.html" class="btn btn-outline-primary">View All FAQs</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta" style="background-image: url('images/bg-main.jpg');">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8">
+                    <h2>Ready to Start Your Bitcoin Investment Journey?</h2>
+                    <p>Join thousands of satisfied investors and start growing your wealth today!</p>
+                </div>
+                <div class="col-lg-4 text-lg-end">
+                    <a href="register.html" class="btn btn-primary btn-lg">Create Account</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="footer-about">
+                        <img src="images/logo-white.jpeg" alt="BitWealth Hub Logo" class="footer-logo">
+                        <h3>BitWealth Hub</h3>
+                        <p>A trusted Bitcoin investment community dedicated to helping individuals grow their wealth through smart and secure cryptocurrency investments.</p>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-telegram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="footer-links">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="plans.html">Investment Plans</a></li>
+                            <li><a href="faq.html">FAQ</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="footer-links">
+                        <h4>Legal</h4>
+                        <ul>
+                            <li><a href="terms.html">Terms of Service</a></li>
+                            <li><a href="privacy.html">Privacy Policy</a></li>
+                            <li><a href="risk.html">Risk Disclosure</a></li>
+                            <li><a href="refund.html">Refund Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="footer-contact">
+                        <h4>Contact Us</h4>
+                        <p><i class="fas fa-map-marker-alt"></i> 123 Main Street, Suite 456, New York, NY 10001</p>
+                        <p><i class="fas fa-envelope"></i> bitwealthhubb@gmail.com</p>
+                        <p><i class="fas fa-phone"></i> +1(201) 477-8071</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p>&copy; 2025 BitWealth Hub. All Rights Reserved.</p>
+                    </div>
+                    <div class="col-md-6 text-md-end">
+                        <p>Designed with <i class="fas fa-heart"></i> for secure investments</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
