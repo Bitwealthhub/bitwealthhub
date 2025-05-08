@@ -10,8 +10,8 @@ BitWealth Hub is a professional cryptocurrency investment platform that offers f
 - **about.html** - About the company
 - **plans.html** - Detailed investment plans
 - **contact.html** - Contact information and form
-- **login.html** - User login
-- **register.html** - New user registration
+- **login.html** - https://bitwealthhub.github.io/Bitwealthhub/login.html
+- **register.html** - https://bitwealthhub.github.io/Bitwealthhub/signup.html
 
 ### User Dashboard
 - **user/dashboard.html** - Main user dashboard
